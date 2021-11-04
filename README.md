@@ -1,4 +1,4 @@
 # Bitsy-Display-Add-On
-OLED display for ItsyBitsy
+OLED display for Adafruit's [ItsyBitsy](https://www.adafruit.com/?q=itsybitsy&sort=BestMatch)
 
-![alt text](https://github.com/hexthat/Bitsy-Display-Add-On/blob/master/images.png?raw=true)
+![Board](https://github.com/hexthat/Bitsy-Display-Add-On/blob/master/images.png?raw=true)
