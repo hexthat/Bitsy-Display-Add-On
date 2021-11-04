@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1435,6 +1435,7 @@ DIN A4, landscape with location and doc. field</description>
 </classes>
 <parts>
 <part name="FRAME1" library="microbuilder" deviceset="FRAME_A4" device="">
+<attribute name="COMPANY" value="HEXTHAT"/>
 <attribute name="REV" value="1.0"/>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
