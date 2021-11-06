@@ -1846,14 +1846,14 @@ DIN A4, landscape with location and doc. field</description>
 <label x="152.4" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="C2P" class="0">
 <segment>
 <wire x1="78.74" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="OLED" gate="G$1" pin="C2+"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="C2N" class="0">
 <segment>
 <wire x1="68.58" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="78.74" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
@@ -1862,14 +1862,14 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="OLED" gate="G$1" pin="C2-"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="C1P" class="0">
 <segment>
 <wire x1="78.74" y1="73.66" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="OLED" gate="G$1" pin="C1+"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="C1N" class="0">
 <segment>
 <wire x1="63.5" y1="73.66" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="73.66" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
@@ -1878,21 +1878,21 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="OLED" gate="G$1" pin="C1-"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="VCOMH" class="0">
 <segment>
 <wire x1="78.74" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="OLED" gate="G$1" pin="VCOMH"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="IREF" class="0">
 <segment>
 <wire x1="78.74" y1="50.8" x2="63.5" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="OLED" gate="G$1" pin="IREF"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="VCC" class="0">
 <segment>
 <wire x1="78.74" y1="45.72" x2="48.26" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="OLED" gate="G$1" pin="VCC"/>

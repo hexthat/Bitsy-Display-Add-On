@@ -10,7 +10,7 @@
 <grid distance="5" unitdist="mil" unit="inch" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -752,19 +752,19 @@ einem neuen Namen ab.</description>
 <signal name="VBREF">
 <contactref element="OLED" pad="6"/>
 </signal>
-<signal name="N$1">
+<signal name="C2P">
 <contactref element="OLED" pad="1"/>
 <contactref element="C5" pad="2"/>
 <wire x1="7.491" y1="14.317" x2="12.478" y2="14.317" width="0.2032" layer="16"/>
 <wire x1="12.478" y1="14.317" x2="12.7" y2="14.539" width="0.2032" layer="16"/>
 </signal>
-<signal name="N$2">
+<signal name="C2N">
 <contactref element="C5" pad="1"/>
 <contactref element="OLED" pad="2"/>
 <wire x1="12.7" y1="12.639" x2="11.642" y2="13.697" width="0.2032" layer="16"/>
 <wire x1="11.642" y1="13.697" x2="7.491" y2="13.697" width="0.2032" layer="16"/>
 </signal>
-<signal name="N$3">
+<signal name="C1P">
 <contactref element="OLED" pad="3"/>
 <contactref element="C4" pad="2"/>
 <wire x1="15.24" y1="14.539" x2="14.1968" y2="14.539" width="0.2032" layer="16"/>
@@ -775,7 +775,7 @@ einem neuen Namen ab.</description>
 <wire x1="11.82375" y1="11.7142" x2="10.46095" y2="13.077" width="0.2032" layer="16"/>
 <wire x1="13.8818" y1="14.224" x2="13.8818" y2="12.01975" width="0.2032" layer="16"/>
 </signal>
-<signal name="N$4">
+<signal name="C1N">
 <contactref element="C4" pad="1"/>
 <contactref element="OLED" pad="4"/>
 <wire x1="15.24" y1="12.639" x2="13.904" y2="11.303" width="0.2032" layer="16"/>
@@ -783,20 +783,20 @@ einem neuen Namen ab.</description>
 <wire x1="11.43" y1="11.303" x2="10.276" y2="12.457" width="0.2032" layer="16"/>
 <wire x1="10.276" y1="12.457" x2="7.491" y2="12.457" width="0.2032" layer="16"/>
 </signal>
-<signal name="N$5">
+<signal name="VCOMH">
 <contactref element="OLED" pad="13"/>
 <contactref element="C2" pad="2"/>
 <wire x1="7.491" y1="6.877" x2="13.382" y2="6.877" width="0.2032" layer="16"/>
 <wire x1="13.382" y1="6.877" x2="13.655" y2="6.604" width="0.2032" layer="16"/>
 </signal>
-<signal name="N$7">
+<signal name="IREF">
 <contactref element="OLED" pad="12"/>
 <contactref element="R1" pad="2"/>
 <wire x1="7.491" y1="7.497" x2="12.323" y2="7.497" width="0.2032" layer="16"/>
 <wire x1="13.208" y1="8.382" x2="13.655" y2="8.382" width="0.2032" layer="16"/>
 <wire x1="12.323" y1="7.497" x2="13.208" y2="8.382" width="0.2032" layer="16"/>
 </signal>
-<signal name="N$6">
+<signal name="VCC">
 <contactref element="OLED" pad="14"/>
 <contactref element="C3" pad="2"/>
 <wire x1="7.491" y1="6.257" x2="8.5918" y2="6.257" width="0.2032" layer="16"/>
