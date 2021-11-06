@@ -2,7 +2,7 @@ Partlist exported from C:/Users/helpi/Desktop/Bitsy-Display-Add-On-master/ItsyBi
 
 Part Value          Device                    Package                    Description                              BOM    
 C1   10uF           CAP_CERAMIC0805-NOOUTLINE 0805-NO                    Ceramic Capacitors                              
-C2   10uF           CAP_CERAMIC0805-NOOUTLINE 0805-NO                    Ceramic Capacitors                              
+C2   10uF(>=16V)    CAP_CERAMIC0805-NOOUTLINE 0805-NO                    Ceramic Capacitors                              
 C3   10uF           CAP_CERAMIC0805-NOOUTLINE 0805-NO                    Ceramic Capacitors                              
 C4   1uF            CAP_CERAMIC0805-NOOUTLINE 0805-NO                    Ceramic Capacitors                              
 C5   1uF            CAP_CERAMIC0805-NOOUTLINE 0805-NO                    Ceramic Capacitors                              
