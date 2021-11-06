@@ -1,0 +1,18 @@
+Partlist exported from C:/Users/helpi/Desktop/Bitsy-Display-Add-On-master/ItsyBitsy Display Add-On.sch at 11/5/2021 7:44 PM
+
+Part Value          Device                    Package                    Description                              BOM    
+C1   10uF           CAP_CERAMIC0805-NOOUTLINE 0805-NO                    Ceramic Capacitors                              
+C2   10uF           CAP_CERAMIC0805-NOOUTLINE 0805-NO                    Ceramic Capacitors                              
+C3   10uF           CAP_CERAMIC0805-NOOUTLINE 0805-NO                    Ceramic Capacitors                              
+C4   1uF            CAP_CERAMIC0805-NOOUTLINE 0805-NO                    Ceramic Capacitors                              
+C5   1uF            CAP_CERAMIC0805-NOOUTLINE 0805-NO                    Ceramic Capacitors                              
+IC1  APX803         AXP083-SAG                SOT23                                                                      
+JP1                 HEADER-1X14               1X14_ROUND70                                                               
+JP2                 HEADER-1X14               1X14_ROUND70                                                               
+OLED OLED 128x32    DISP_OLED_UG-2832HSWEG02  UG-2832HSWEG02_WRAPUNDER   128x32 I2C 0.91" Monochrome OLED Display        
+R1   390K           RESISTOR0805_NOOUTLINE    0805-NO                    Resistors                                       
+R2   10K            RESISTOR_0805MP           _0805MP                    Resistors                                       
+R3   2.2K           RESISTOR0805_NOOUTLINE    0805-NO                    Resistors                                       
+R4   2.2K           RESISTOR0805_NOOUTLINE    0805-NO                    Resistors                                       
+SJ1                 SOLDERJUMPER              SOLDERJUMPER_ARROW_NOPASTE SMD Solder JUMPER                        EXCLUDE
+SW1  SPST_TACT-KMR2 SPST_TACT-KMR2            KMR2                       SMT 6mm switch, EVQQ2 series                    
